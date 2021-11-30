@@ -15,7 +15,7 @@ if (squaredRoot > 100) {
 let squaredValue = squaredRoot * squaredRoot // total amount of divs to be made. (area)
 
 for (let i = 0; i < squaredValue; ++i){ //loop to create the amount of divs needed
-  let minWidth = `${1000 / squaredRoot}px`;
+  let minWidth = `${400 / squaredRoot}px`;
   let div = document.createElement('div');
   div.classList.add('twobytwo');
   div.style.minWidth = minWidth;
@@ -59,7 +59,7 @@ function eraseMode() {
       }
       squaredValue = squaredRoot * squaredRoot;
       for (let i = 0; i < squaredValue; ++i){ //loop to create the amount of divs needed
-        let minWidth = `${1000 / squaredRoot}px`;
+        let minWidth = `${400 / squaredRoot}px`;
         let div = document.createElement('div');
         div.classList.add('twobytwo');
         div.style.minWidth = minWidth;
