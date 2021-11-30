@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+  font-family:cursive;
+}
+.etchasketch {
+  display: flex;
+  flex: 0 0 0;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: darkred;
+  border-radius: 20px;
+  width: max-content;
+  box-shadow: 10px 10px 5px grey;
+  width: 1500px;
+  height: 1500px;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+h1 {
+  text-align: center;
+  color: darkgoldenrod;
+  font-size: 80px;
+  margin-bottom: 40px;
+}
+.twobytwo {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: auto;
+  border: solid black 1px;
+  aspect-ratio: 1 / 1;
+  justify-content: stretch;
+  align-items: stretch;
+  background-color: white;
+}
+
+
+.container {
+  box-sizing: content-box;
+  width: 1000px;
+  height: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: flex-start;
+  border-left: solid grey 6px;
+  border-right: solid grey 3px;
+  background-color: white;
+} 
+
+.buttons {
+  display:flex;
+  flex-direction: row;
+  gap: 100px;
+  margin-top: 30px;
+}
+
+.buttons img {
+  width: 200px;
+  height: auto;
+  cursor: pointer;
+}
+
+.buttons div p {
+  font-size: 30px;
+  font-family: monospace;
+  color: white;
+  text-align: center;
+  margin-top: -5px;
+}
